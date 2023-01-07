@@ -18,7 +18,7 @@ await doctor.save();
 
 res.send({message: 'Doctor is now registered.'})
     } catch (error) {
-        console.log(error);
+    
         res.status(500).send({ error: error.message });
     }
 
